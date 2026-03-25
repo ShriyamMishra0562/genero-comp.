@@ -3,34 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Graphics Cards</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        img {
+            width: 200px;
+            height: auto;
+            margin: 10px;
+        }
+
+        button {
+            margin-bottom: 20px;
+            padding: 8px 12px;
+            cursor: pointer;
+        }
+
+        .card {
+            margin: 20px;
+        }
+    </style>
 </head>
 <body>
-    
-<h1>graphics card</h1>
-<img src=https://flickrin.com/wp-content/uploads/2024/06/amd-grapich-card.jpg>
-<ol>
-<li><h2>gtx 1080</h2>
-</li>
-<li><h2>rtx 2080</h2>
-    
-</li>
-<li><h2>rtx 3080</h2>
-    
-</li>
-</ol>
-<div>
-<img src="https://tse2.mm.bing.net/th/id/OIP.tRJAblArqtnqlg7WoPAJoQHaD3?pid=Api&P=0&h=180">
-<button>
-    for more info.
-</button>
-<img src="https://tse1.mm.bing.net/th/id/OIP.uqurIKBjc3Oh-TyofaFYpgHaHa?pid=Api&P=0&h=180">
-<button>
-    for more info
-</button>
 
-<img src="https://tse2.mm.bing.net/th/id/OIP.53bP79qCFGAacMcp4GCUBwHaGq?pid=Api&P=0&h=180">
-<button>
-    for more info
-</button>
-</div>
+    <h1>Graphics Cards</h1>
+
+    <!-- Main Image -->
+    <img src="https://flickrin.com/wp-content/uploads/2024/06/amd-grapich-card.jpg" alt="Graphics Card">
+
+    <!-- List -->
+    <ol>
+        <li><h2>GTX 1080</h2></li>
+        <li><h2>RTX 2080</h2></li>
+        <li><h2>RTX 3080</h2></li>
+    </ol>
+
+    <!-- Cards Section -->
+    <div class="card">
+        <img src="https://tse2.mm.bing.net/th/id/OIP.tRJAblArqtnqlg7WoPAJoQHaD3?pid=Api&P=0&h=180" alt="GTX 1080">
+        <br>
+        <button onclick="alert('GTX 1080 info')">More Info</button>
+    </div>
+
+    <div class="card">
+        <img src="https://tse1.mm.bing.net/th/id/OIP.uqurIKBjc3Oh-TyofaFYpgHaHa?pid=Api&P=0&h=180" alt="RTX 2080">
+        <br>
+        <button onclick="alert('RTX 2080 info')">More Info</button>
+    </div>
+
+    <div class="card">
+        <img src="https://tse2.mm.bing.net/th/id/OIP.53bP79qCFGAacMcp4GCUBwHaGq?pid=Api&P=0&h=180" alt="RTX 3080">
+        <br>
+        <button onclick="alert('RTX 3080 info')">More Info</button>
+    </div>
+
+</body>
+</html>
